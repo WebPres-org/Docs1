@@ -58,7 +58,7 @@ html_static_path = ['_static']
 html_logo = "_static/webpres-logo.png"
 html_theme_options = {
     'logo_only': True,
-    'logo': 'webpres-logo.png',
+    'logo': '_static/webpres-logo.png',
     'display_version': False,
     'show_powered_by': False,
     'github_user': 'WebPres-org',
