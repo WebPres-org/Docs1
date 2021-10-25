@@ -18,3 +18,24 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+=============================
+ reStructuredText Directives
+=============================
+:Author: Rony MAN
+:Contact: ronyman.com@outlook.com
+:Revision: $Revision
+:Date: $Date: 2021-10-01 15:39:33 +0200 (Fr, 01. Okt 2021) $
+:Copyright: This document has been placed in the public domain.
+
+
+The following draft content have been implemented:
+
+- brand
+- asset
+- core
+- mudule
+- theme
+- plugin
+- addon
