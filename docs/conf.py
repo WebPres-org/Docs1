@@ -52,6 +52,12 @@ html_logo = "_static/webpres-logo.png"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
+    'show_powered_by': False,
+    'github_user': 'requests',
+    'github_repo': 'requests',
+    'github_banner': True,
+    'show_related': False,
+    'note_bg': '#FFF59C'
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
