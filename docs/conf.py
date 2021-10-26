@@ -38,6 +38,15 @@ release = '1.0.0'
 
 
 # Sidebar
+html_sidebars = {
+    '**': [
+        'about.html',
+        'localtoc.html',
+        'relations.html',
+        'sourcelink.html',
+        'searchbox.html',
+    ]
+}
 
 # -- General configuration ---------------------------------------------------
 
@@ -62,9 +71,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_theme = 'alabaster'
 html_static_path = ['_static']
+html_logo = ['_static/webpres-logo.png']
 html_theme_options = {
     
-    #'logo': 'webpres-logo.png',
+    'logo': 'webpres-logo.png',
     'description': 'An opnen source cms site builder.',
     'display_version': True,
     'logo_only':False,
