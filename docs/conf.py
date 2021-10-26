@@ -68,10 +68,13 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
+# Them option.
 html_theme = 'alabaster'
 html_static_path = ['_static']
 html_logo = ['_static/webpres-logo.png']
+donate_url =
+extra_nav_links =
+fixed_sidebar = false
 html_theme_options = {
     
     'logo': 'webpres-logo.png',
@@ -85,6 +88,7 @@ html_theme_options = {
     'github_banner': False,
     'show_related': False,
     'note_bg': '#FFF59C'
+    
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
