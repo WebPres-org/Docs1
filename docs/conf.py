@@ -38,15 +38,6 @@ release = '1.0.0'
 
 
 # Sidebar
-html_sidebars = {
-    '**': [
-        'about.html',
-        'localtoc.html',
-        'relations.html',
-        'sourcelink.html',
-        'searchbox.html',
-    ]
-}
 
 # -- General configuration ---------------------------------------------------
 
