@@ -72,8 +72,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'alabaster'
 html_static_path = ['_static']
 html_logo = ['_static/webpres-logo.png']
-donate_url =
-extra_nav_links =
 fixed_sidebar = false
 html_theme_options = {
     
