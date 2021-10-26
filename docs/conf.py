@@ -30,6 +30,17 @@ release = '1.0.0'
 
 
 
+# Sidebar
+html_sidebars = {
+    '**': [
+        'about.html',
+        'navigation.html',
+        'relations.html',
+        'searchbox.html',
+        'donate.html',
+    ]
+}
+
 
 # -- General configuration ---------------------------------------------------
 
