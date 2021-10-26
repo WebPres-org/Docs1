@@ -64,7 +64,7 @@ html_theme = 'alabaster'
 html_static_path = ['_static']
 html_logo = ['_static/webpres-logo.png']
 html_theme_options = {
-    'fixed_sidebar': False
+   
     'logo': 'webpres-logo.png',
     'description': 'An opnen source cms site builder.',
     'display_version': True,
