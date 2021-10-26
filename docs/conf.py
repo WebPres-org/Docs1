@@ -73,7 +73,7 @@ html_theme_options = {
     'show_powered_by': True,
     'github_user': 'WebPres-org',
     'github_repo': 'Docs',
-    'github_banner': True,
+    'github_banner': False,
     'show_related': False,
     'note_bg': '#FFF59C'
 }
