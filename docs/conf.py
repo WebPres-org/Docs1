@@ -67,7 +67,7 @@ html_theme_options = {
     'logo': 'webpres-logo.png',
     'description': 'An opnen source cms site builder.',
     'display_version': True,
-    'logo_only':True,
+    'logo_only':False,
     'logo_name':True,
     'show_powered_by': True,
     'github_user': 'WebPres-org',
