@@ -25,6 +25,12 @@ author = 'bigwebx.com'
 release = '1.0.0'
 
 
+# -- Project Sponsored -----------------------------------------------------
+
+
+
+
+
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -50,8 +56,9 @@ html_theme = 'alabaster'
 html_static_path = ['_static']
 html_theme_options = {
     'logo': 'webpres-logo.png',
-    'display_version': False,
+    'display_version': True,
     'logo_only':True,
+    'logo_name':True,
     'show_powered_by': True,
     'github_user': 'WebPres-org',
     'github_repo': 'Docs',
