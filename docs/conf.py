@@ -62,7 +62,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # Them option.
 html_theme = 'alabaster'
 html_static_path = ['_static']
-html_logo = '_static/webpres-logo.png'
+html_logo = 'static/webpres-logo.png'
 html_theme_options = {
    
     'logo': 'webpres-logo.png',
