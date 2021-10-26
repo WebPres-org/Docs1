@@ -25,9 +25,6 @@ Indices and tables
 =============================
 :Author: Rony MAN
 :Contact: ronyman.com@outlook.com
-:Revision: $Revision
-:Date: $Date: 2021-10-25 15:39:33 +0200
-:Copyright: This document has been placed in the public domain.
 
 
 The following draft content have been implemented:
