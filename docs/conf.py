@@ -13,13 +13,20 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+from datetime import datetime
+
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'WebPres'
-copyright = '2021, bigwebx.com'
-author = 'bigwebx.com'
+#project = 'WebPres'
+#copyright = '2021, bigwebx.com'
+#author = 'bigwebx.com'
+project = u'WebPres'
+year = datetime.now().year
+copyright = u"%d bigwebx.com" % year
+
+
 
 # The full version, including alpha/beta/rc tags
 release = '1.0.0'
@@ -31,16 +38,6 @@ release = '1.0.0'
 
 
 # Sidebar
-html_sidebars = {
-    '**': [
-        'about.html',
-        'navigation.html',
-        'relations.html',
-        'searchbox.html',
-        'donate.html',
-    ]
-}
-
 
 # -- General configuration ---------------------------------------------------
 
