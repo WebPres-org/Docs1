@@ -33,7 +33,7 @@ The following draft content have been implemented:
 - brand
 - asset
 - core
-- mudule
+- module
 - theme
 - plugin
 - addon
