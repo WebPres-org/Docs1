@@ -5,5 +5,80 @@
     <a href="https://github.com/WebPres-org/Docs.git">
         <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub">
     </a>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"><!--main navbar-->
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <img src="{% static 'Assets/brand/webpres-logo.png'%} " alt="" width="50" height="50" class="d-inline-block align-text-top">
+       <span class="position-absolute badge rounded-pill bg-danger">
+          V.1.0
+       </span>
+    </a>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+        <a class="nav-link text-white" href="/">Home</a>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link text-white" href="https://docs.webpres.org/">Docs</a>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link text-white" href="http://forum.webpres.org/">Forums</a>
+      </li>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link text-white" href="/post/">Blog</a>
+      </li>
+
+
+      </li>
+          <li class="nav-item">
+        <a class="nav-link text-white" href="https://github.com/WebPres-org/v1.0/"><i class="fab fa-github"></i>&nbsp;Fork</a>
+      </li>
+
+      </li>
+          <li class="nav-item">
+        <a class="nav-link text-white" href="https://buy.stripe.com/7sI3fY9TD5jE3KgdR0"><i class="fas fa-hand-holding-usd"></i>&nbsp;Donate</a>
+      </li>
+    </ul>
+
+        <ul class="nav justify-content">
+  <li class="nav-item">
+        {% if user.is_authenticated %}
+     <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href='#' id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Welcome {{request.user}}</a>
+    <div class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+    <ul class="nav justify-content-start">
+        <ul><a class="dropdown-item " href="{% url 'Myprofile' %}">My Profile</a></ul>
+        <ul><a class="dropdown-item" href="{% url 'post_create' %}">Create Post</a></ul>
+          <ul><a class="dropdown-item" href="{% url 'logout' %}">Logout</a></ul>
+    </ul>
+      </li>
+{% else %}
+      <li class="nav-item">
+        <a class="nav-link text-white" href="{% url 'register' %}">Register</a>
+      </li>
+      <li class="nav-item">
+          <li class="nav-item">
+             <a class="nav-link text-white btn btn-outline-danger " href="{% url 'login' %}">Login</a>
+         </li>
+            </li>
+               {% endif %}
+
+             </li>
+          </li>
+    </ul>
+
+            </div>
+         </div>
+       </nav>
+    </header>
+
+
+
 {% include 'scripts.js' %}
 {% endblock %}
