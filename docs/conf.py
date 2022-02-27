@@ -60,7 +60,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 # Them option.
-html_theme = "sphinx_rtd_theme"
+#html_theme = "sphinx_rtd_theme"
+html_theme = "furo"
 html_static_path = ['_static']
 html_logo = 'static/webpres-logo.png'
 html_theme_options = {
